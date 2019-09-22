@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <title>美石记</title>
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <!-- Set render engine for 360 browser -->
+  <meta name="renderer" content="webkit">
+  <!-- No Baidu Siteapp-->
+  <meta http-equiv="Cache-Control" content="no-siteapp" />
+  <link rel="icon" type="image/png" href="img/favicon.ico" />
+  <!-- <link rel="stylesheet" type="text/css" href="css/amazeui.min.css"> -->
+  <link rel="stylesheet" type="text/css" href="css/amazeui.slick.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/main.css" />
+  <script src="js/jquery.min.js"></script>
+  <!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+  <!--头部导航部分-->
+  <header>
+    <nav class="navbar navbar-default navbar-fixed-top nav-zf">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav_list"
+            aria-expanded="false">
+            <span class="sr-only">切换菜单</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">
+            <i class="logo"></i>
+          </a>
+        </div>
+        <div id="nav_list" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-topNav">
+            <li class="active text-center">
+              <a href="index.html">首页</a>
+            </li>
+            <li class="text-center">
+              <a href="origin.html">关于我们</a>
+            </li>
+            <li class="text-center">
+              <a href="product.html">特色菜品</a></li>
+            <li class="text-center"><a href="news.html">新闻资讯</a></li>
+            <li class="text-center"><a href="service.html">合作加盟</a></li>
+            <li class="text-center">
+              <a href="contact_us.html">联系我们</a>
+            </li>
+          </ul>
+          <ul class="nav  navbar-right hidden-sm nav-myRight">
+            <li>
+              <p class="text-center">加盟电话 ：400-8528-908</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!--banner轮播部分-->
+  <section id="main_ad" class="carousel slide" data-ride="carousel">
+    <!-- 下面的小点点，活动指示器 -->
+    <ol class="carousel-indicators">
+      <li data-target="#main_ad" data-slide-to="0" class="active"></li>
+      <li data-target="#main_ad" data-slide-to="1"></li>
+      <li data-target="#main_ad" data-slide-to="2"></li>
+    </ol>
+    <!-- 轮播项 -->
+
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <a href="#">
+          <img src="img/banner1.jpg" alt="首页轮播图1" />
+        </a>
+      </div>
+      <div class="item">
+        <a href="#">
+          <img src="img/banner1.jpg" alt="首页轮播图2" />
+        </a>
+      </div>
+      <div class="item">
+        <a href="#">
+          <img src="img/banner1.jpg" alt="首页轮播图3" />
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!--特色展示部分-->
+  <!-- <section class="feature">
+    <div class="tab-selecter">
+      <ul class="nav nav-tabs tab_top" role="tablist">
+        <li role="presentation" class="active"><a href="#category_01" aria-controls="category_01" role="tab"
+            data-toggle="tab" aria-expanded="false">
+            <div class="index-featureTabTop1 hidden-xs">
+              <b class="index-featureTabTop1Pic1"></b>
+            </div>
+            <p>特色美食</p>
+          </a></li>
+        <li role="presentation"><a href="#category_02" aria-controls="category_02" role="tab" data-toggle="tab"
+            aria-expanded="false">
+            <div class="index-featureTabTop2 hidden-xs">
+              <b class="index-featureTabTop1Pic2"></b>
+            </div>
+            <p>特价菜品</p>
+          </a></li>
+
+        <li role="presentation"><a href="#category_03" aria-controls="category_03" role="tab" data-toggle="tab"
+            aria-expanded="false">
+            <div class="index-featureTabTop3 hidden-xs">
+              <b class="index-featureTabTop1Pic3"></b>
+            </div>
+            <p>优选食材</p>
+          </a></li>
+        <li role="presentation"><a href="#category_04" aria-controls="category_04" role="tab" data-toggle="tab"
+            aria-expanded="false">
+            <div class="index-featureTabTop4 hidden-xs">
+              <b class="index-featureTabTop1Pic4"></b>
+            </div>
+            <p>养生膳食</p>
+          </a></li>
+      </ul>
+    </div>  -->
+
+  <!-- 所有的选项卡内容 -->
+  <!-- <div class="tab-content tab_nav_content01">
+      <div role="tabpanel" class="tab-pane fade in active" id="category_01">
+        <h2>特 色 美 食</h2>
+        <p>Special Food</p>
+        <div class="center tab-pane-num1 slider" id="food">
+          <div>
+            <h3><img src="img/index-tab1-num1.jpg" alt="tab1图片"></h3>
+          </div>
+          <div>
+            <h3><img src="img/index-tab1-num2.jpg" alt="tab2图片"></h3>
+          </div>
+          <div>
+            <h3><img src="img/index-tab1-num3.jpg" alt="tab3图片"></h3>
+          </div>
+          <div>
+            <h3><img src="img/index-tab1-num4.jpg" alt="tab4图片"></h3>
+          </div>
+          <div>
+            <h3> <img src="img/index-tab1-num5.jpg" alt="tab5图片"></h3>
+          </div>
+        </div>
+      </div>
+      <div role="tabpanel" class="tab-pane fade" id="category_02">
+      
+      </div>
+      <div role="tabpanel" class="tab-pane fade" id="category_03">
+         
+      </div>
+      <div role="tabpanel" class="tab-pane fade" id="category_04">
+         
+      </div>
+    </div>
+  </section> -->
+  <!-- 特色部分（改版） -->
+
+  <section class="feature">
+    <div class="container">
+      <div class="row">
+        <h2>特 色 菜 品</h2>
+        <p>Special Food</p>
+      </div>
+      <section id="grid" class="grid clearfix">
+        <a href="./product.html?type=bibimbap" target="_blank"
+          data-path-hover="m 0,0 0,47.7775 c 24.580441,3.12569 55.897012,-8.199417 90,-8.199417 34.10299,0 65.41956,11.325107 90,8.199417 L 180,0 z">
+          <figure>
+            <img src="img/featureContent1.jpg" />
+            <svg viewBox="0 0 180 320" preserveAspectRatio="none">
+              <path
+                d="m 0,0 0,171.14385 c 24.580441,15.47138 55.897012,24.75772 90,24.75772 34.10299,0 65.41956,-9.28634 90,-24.75772 L 180,0 0,0 z" />
+            </svg>
+            <figcaption>
+              <h2>韩式石锅拌饭</h2>
+              <p>石锅拌饭是韩国餐饮的代表性食物，营养丰富且热量不高</p>
+              <button>更多</button>
+            </figcaption>
+          </figure>
+        </a>
+        <a href="./product.html?type=slate" target="_blank"
+          data-path-hover="m 0,0 0,47.7775 c 24.580441,3.12569 55.897012,-8.199417 90,-8.199417 34.10299,0 65.41956,11.325107 90,8.199417 L 180,0 z">
+          <figure>
+            <img src="img/featureContent3.jpg" />
+            <svg viewBox="0 0 180 320" preserveAspectRatio="none">
+              <path
+                d="m 0,0 0,171.14385 c 24.580441,15.47138 55.897012,24.75772 90,24.75772 34.10299,0 65.41956,-9.28634 90,-24.75772 L 180,0 0,0 z" />
+            </svg>
+            <figcaption>
+              <h2>韩式石板饭</h2>
+              <p>一种集视觉、听觉、味觉、触觉和心感“五感”于一体的饮食艺术</p>
+              <button>更多</button>
+            </figcaption>
+          </figure>
+        </a>
+        <a href="./product.html?type=noodle" target="_blank"
+          data-path-hover="m 0,0 0,47.7775 c 24.580441,3.12569 55.897012,-8.199417 90,-8.199417 34.10299,0 65.41956,11.325107 90,8.199417 L 180,0 z">
+          <figure>
+            <img src="img/featureContent2.jpg" />
+            <svg viewBox="0 0 180 320" preserveAspectRatio="none">
+              <path
+                d="m 0,0 0,171.14385 c 24.580441,15.47138 55.897012,24.75772 90,24.75772 34.10299,0 65.41956,-9.28634 90,-24.75772 L 180,0 0,0 z" />
+            </svg>
+            <figcaption>
+              <h2>韩式冷面</h2>
+              <p>“美石记”面食在传承经典的同时，融入了更多科学的营养配比和新鲜的元素。</p>
+              <button>更多</button>
+            </figcaption>
+          </figure>
+        </a>
+        <a href="./product.html?type=soup" target="_blank"
+          data-path-hover="m 0,0 0,47.7775 c 24.580441,3.12569 55.897012,-8.199417 90,-8.199417 34.10299,0 65.41956,11.325107 90,8.199417 L 180,0 z">
+          <figure>
+            <img src="img/featureContent4.jpg" />
+            <svg viewBox="0 0 180 320" preserveAspectRatio="none">
+              <path
+                d="m 0,0 0,171.14385 c 24.580441,15.47138 55.897012,24.75772 90,24.75772 34.10299,0 65.41956,-9.28634 90,-24.75772 L 180,0 0,0 z" />
+            </svg>
+            <figcaption>
+              <h2>韩式参鸡汤</h2>
+              <p>粥营养丰富，能补胃生津，健脾胃，补虚损，对人体最具营养功效</p>
+              <button>更多
+              </button>
+            </figcaption>
+          </figure>
+        </a>
+      </section>
+    </div>
+  </section>
+  <!-- 秘密部分 -->
+
+  <section class="secret">
+    <div class="container">
+      <div class="row">
+        <h2>三 大 秘 技</h2>
+        <p>Three Secrets</p>
+      </div>
+      <div class="row secretContentPhone">
+        <div class="col-md-4">
+          <div class="secret-contentImg">
+            <img src="img/secret-content1.jpg" alt="秘密部分图片1">
+          </div>
+          <div class="secret-contentText">
+            <h4>韩式辣白菜</h4>
+            <span>美石记引进正宗的韩式辣白菜制作工艺。精选菜叶细嫩多汁的黄芯白菜，经过多种复杂工艺，保证口感，酸、辣、鲜、脆，清爽可口。</span>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="secret-contentText">
+            <h4>秘制韩式辣酱</h4>
+            <span>韩式传统工艺，美石记秘制，经十几个小时的精心熬煮而成，品质正宗，口味不错。味道香醇，回味无穷，吃货必备！</span>
+          </div>
+          <div class="secret-contentImg">
+            <img src="img/secret-content2.jpg" alt="秘密部分图片1">
+
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="secret-contentImg">
+            <img src="img/secret-content3.jpg" alt="秘密部分图片1">
+          </div>
+          <div class="secret-contentText">
+            <h4>传统石锅</h4>
+            <span>美石记秉承健康、时尚理念制作出传统的石锅拌饭。美石记石锅经过长达2小时300度高温烘烤，能长久的保持饭菜的温度。</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 关于我们 -->
+  <section class="index-about">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 hidden-xs">
+          <div class="indext-aboutLeftImg">
+          </div>
+        </div>
+        <div class="col-md-8">
+          <h4>关于我们
+          </h4>
+          <span>“美石记”成立于2013年，是一家集餐饮管理、餐饮连锁加盟、运营管理、食品研究、教育培训、管理咨询、营销策划为一体的餐饮策划推广机构，多年来，不但积累了丰富的餐饮业服务经验，也擦亮了商业慧眼，看穿了现代人们的生活节奏与餐饮之间的关系，更看准了市场的不足与优势，更结合企业自身的特点，利用经验、技术、人资、产品等多方面的优势，成功的改善了餐饮行业所存在的不足，并推出新一代“美石记”石锅养生快餐，开创了餐饮史上的全新局面。</span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3 text-center col-xs-3">
+          <a href="./origin.html?type=introduce" target="_blank">
+            <div class="index-aboutRightImg1"></div>
+          </a>
+        </div>
+        <div class="col-md-3 text-center col-xs-3">
+          <a href="./origin.html?type=culture" target="_blank">
+            <div class="index-aboutRightImg2"></div>
+          </a>
+        </div>
+        <div class="col-md-3 text-center col-xs-3">
+          <a href="./origin.html?type=honor" target="_blank">
+            <div class="index-aboutRightImg3"></div>
+          </a>
+        </div>
+        <div class="col-md-3 text-center col-xs-3">
+          <a href="./origin.html?type=companyFeature" target="_blank">
+            <div class="index-aboutRightImg4"></div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- 四大优势 -->
+  <section class="index-advantages">
+    <div class="container">
+      <div class="row">
+        <h2>四 大 核 心 优 势</h2>
+        <p>Four Core Advantages</p>
+      </div>
+      <div class="row">
+        <h4>360度“保姆式”服务手把手教你如何开店一本万利!</h4>
+        <h4>开启“不劳而获、坐享其成”的商业模式!</h4>
+      </div>
+      <div class="row index-advantagesContent">
+        <div class="col-md-3 text-center">
+          <a href="./service.html?type=howJoin">
+            <img src="img/index-advantages1.jpg" alt="核心优势图1">
+            <div class="index-advantagesMask">
+              <h5>品牌</h5>
+              <span>强势品牌，迅速占领市场</span>
+            </div>
+          </a>
+
+          <!-- <div class="index-advantagesImg1">
+          </div> -->
+        </div>
+        <div class="col-md-3 text-center">
+          <a href="./service.html?type=howJoin">
+            <img src="img/index-advantages2.jpg" alt="核心优势图2">
+            <div class="index-advantagesMask">
+              <h5>团队</h5>
+              <span>专业店长下店支持带店</span>
+            </div>
+          </a>
+
+          <!-- <div class="index-advantagesImg2">
+          </div>-->
+        </div>
+        <div class="col-md-3 text-center">
+          <a href="./service.html?type=joinAdvantage">
+            <img src="img/index-advantages3.jpg" alt="核心优势图3">
+            <div class="index-advantagesMask">
+              <h5>模式</h5>
+              <span>360度服务手把手教学</span>
+            </div>
+          </a>
+
+          <!-- <div class="index-advantagesImg3">
+          </div> -->
+
+        </div>
+        <div class="col-md-3 text-center">
+          <a href="./service.html?type=joinAdvantage"> <img src="img/index-advantages4.jpg" alt="核心优势图4">
+            <div class="index-advantagesMask">
+              <h5>配方</h5>
+              <span>秘制工艺配方，尽享核心竞争</span>
+            </div>
+          </a>
+          <!-- <div class="index-advantagesImg4">
+          </div> -->
+        </div>
+      </div>
+      <div class="row index-advantagesBtm text-center">
+        <a href="javascipt:;">如何加盟</a>
+      </div>
+    </div>
+  </section>
+  <!-- 品牌故事 -->
+  <section class="index-brand">
+    <div class="container">
+      <div class="row text-center">
+        <a href="origin.html">
+          <h4>品牌源自于传说</h4>
+        </a>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <span>
+            相传，李氏王朝开国太祖6年，一位姑娘与一名工匠互生爱慕，但是皇宫总管看上姑娘美貌，想霸占姑娘。为免遭迫害，两人私奔逃进深山，因物质缺乏，工匠用石头制作生活器具。后来，总管犯事被捕入狱。小两口走出深山，开了饭馆，尝试石锅做饭招待顾客，深受欢迎。经历数百年，石锅烹饪的做法流传下来，后人将这美食注册为美石记，成就了这一美食盛宴。
+          </span>
+        </div>
+        <div class="col-md-6 hidden-xs">
+          <img src="img/index-brandContent.png" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- 新闻页面 -->
+  <section class="index-news">
+    <div class="container">
+      <div class="row">
+        <h2>新 闻 资 讯</h2>
+        <p>News and Information</p>
+      </div>
+      <div class="row">
+        <div class="col-md-4 text-center">
+          <img src="img/index-newsCon.jpg" alt="">
+        </div>
+        <div class="col-md-8">
+          <a href="newsContent.html">
+            <h3>热烈祝贺：“美石记”荣获2017中国连锁餐饮消费者喜爱品牌</h3>
+            <span>集世界烹饪之精华，汇天下美食之大成。尚京集团在餐饮连锁行业品牌发展上不断突破与创新，始终坚持着走特色餐饮道路努力总是有收获的，在尚京集团精心的耕耘下，旗下品牌“美石记”终于在众多竞争对手中脱颖而出，在首届...</span>
+            <em>2019年04月12日</em>
+          </a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 text-center">
+          <img src="img/index-newsCon.jpg" alt="">
+        </div>
+        <div class="col-md-8">
+          <a href="newsContent.html">
+            <h3>热烈祝贺：“美石记”荣获2017中国连锁餐饮消费者喜爱品牌</h3>
+            <span>集世界烹饪之精华，汇天下美食之大成。尚京集团在餐饮连锁行业品牌发展上不断突破与创新，始终坚持着走特色餐饮道路努力总是有收获的，在尚京集团精心的耕耘下，旗下品牌“美石记”终于在众多竞争对手中脱颖而出，在首届...</span>
+            <em>2019年04月12日</em>
+          </a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 text-center">
+          <img src="img/index-newsCon.jpg" alt="">
+        </div>
+        <div class="col-md-8">
+          <a href="newsContent.html">
+            <h3>热烈祝贺：“美石记”荣获2017中国连锁餐饮消费者喜爱品牌</h3>
+            <span>集世界烹饪之精华，汇天下美食之大成。尚京集团在餐饮连锁行业品牌发展上不断突破与创新，始终坚持着走特色餐饮道路努力总是有收获的，在尚京集团精心的耕耘下，旗下品牌“美石记”终于在众多竞争对手中脱颖而出，在首届...</span>
+            <em>2019年04月12日</em>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- vue.js -->
+  <div id="footer-zf">
+
+    <!--底部内容-->
+    <footer-copy></footer-copy>
+
+    <!--底部悬浮-->
+    <float-bot></float-bot>
+
+  </div>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/2.2.2Vue.min.js"></script>
+  <script src="js/zf-vue-index.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/snap.svg-min.js"></script>
+  <script>
+    // 特色菜品
+    // $('.center').slick({
+    //   centerMode: true,
+    //   infinite: true,
+    //   centerPadding: '40px',
+    //   slidesToShow: 3,
+    //   speed: 500,
+    //   responsive: [{
+    //     breakpoint: 768,
+    //     settings: {
+    //       arrows: false,
+    //       centerMode: true,
+    //       centerPadding: '40px',
+    //       slidesToShow: 3
+    //     }
+    //   }, {
+    //     breakpoint: 480,
+    //     settings: {
+    //       arrows: false,
+    //       centerMode: true,
+    //       centerPadding: '40px',
+    //       slidesToShow: 1
+    //     }
+    //   }]
+    // });
+
+    (function () {
+
+      function init() {
+        var speed = 330,
+          easing = mina.backout;
+
+        [].slice.call(document.querySelectorAll('#grid > a')).forEach(function (el) {
+          var s = Snap(el.querySelector('svg')), path = s.select('path'),
+            pathConfig = {
+              from: path.attr('d'),
+              to: el.getAttribute('data-path-hover')
+            };
+
+          el.addEventListener('mouseenter', function () {
+            path.animate({ 'path': pathConfig.to }, speed, easing);
+          });
+
+          el.addEventListener('mouseleave', function () {
+            path.animate({ 'path': pathConfig.from }, speed, easing);
+          });
+        });
+      }
+
+      init();
+
+    })();
+  </script>
+</body>
+
+</html>
